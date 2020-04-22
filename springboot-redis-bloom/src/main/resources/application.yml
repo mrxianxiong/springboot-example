@@ -1,0 +1,17 @@
+server:
+  port: 5678
+spring:
+  application:
+    name: springboot-redis-bloom
+  redis:
+    host: 47.99.94.155
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 500
+        min-idle: 0
+    lettuce:
+      shutdown-timeout: 0
